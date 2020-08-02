@@ -1,5 +1,9 @@
-Bob 
-Jim
-Mary
-Steve
-Roy
+
+GIT parancssor utasítások
+
+Startgombbal indul - keresőbe beírni: cmd - parancssor megnyílik
+
+c:\users\Jakab István>l:            (meghajtó kiválasztása)
+l:\cd web\testreport                (Belépés a kiválasztott könyvtárba)
+l:\web\testreport>dir               (könytárstruktúra kijelzése)
+l:\web\testreport>git status        (git status lekérdezése)
