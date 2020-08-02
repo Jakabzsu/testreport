@@ -1,0 +1,57 @@
+GIT parancssor utasítások
+
+Startgombbal indul - keresőbe beírni: cmd  (parancssor megnyílik)
+
+c:\users\Jakab István>l:            (meghajtó kiválasztása)
+l:\cd web\testreport                (Belépés a kiválasztott könyvtárba)
+l:\web\testreport>dir               (könytárstruktúra kijelzése)
+
+L:\web\testreport>dir
+ Volume in drive L is USB DISK
+ Volume Serial Number is 9DFA-AD02
+
+ Directory of L:\web\testreport
+
+2020.07.30.  10:14    <DIR>          .
+2020.07.30.  10:14    <DIR>          ..
+2020.07.30.  10:14                42 README.md
+2020.08.02.  06:56                27 new.txt
+               2 File(s)             69 bytes
+               2 Dir(s)  52 441 251 840 bytes free
+
+l:\web\testreport>git status        (git status lekérdezése)
+
+L:\web\testreport>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+L:\web\testreport>git add new.txt   (új file hozzáadása)
+
+L:\web\testreport>git add new.txt
+
+L:\web\testreport>git add .
+
+L:\web\testreport>git commit -m "Git parancssor utasítások."
+[master 50e718a] Git parancssor utasítások.
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+
+L:\web\testreport>git pull
+Already up to date.
+
+L:\web\testreport>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 514 bytes | 514.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Jakabzsu/testreport.git
+   9111020..50e718a  master -> master
+
+L:\web\testreport>
+
+Ellenőrzés menete :
+
+Github megnyitása, frissítés, new.txt file megnyitása, változás ellenőrzése.
